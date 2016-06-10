@@ -1,0 +1,22 @@
+{
+    "name": "betagt/marketplace",
+    "type": "lib",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Allan Roberto",
+            "email": "allanroberto18@gmail.com"
+        }
+    ],
+    "require": {
+        "betagt/master": "^0.1.37"
+    },
+    "require-dev": {
+        "laravel/laravel": "5.1.*"
+    },
+    "autoload" : {
+        "psr-4" : {
+            "BetaGT\\Marketplace\\" : "src/"
+        }
+    }
+}
